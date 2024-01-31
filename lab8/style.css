@@ -1,0 +1,225 @@
+#container{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+header .top-right{
+    width: 300px;
+    height: 50px;
+    background-color: orangered;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    font-variant: small-caps;
+}
+header .top-right a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    padding: 5px;
+}
+header .top-right a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+header .company-info{
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    bottom: 50px;
+    left: 15px;
+    box-shadow: 0 0 5px orangered;
+    text-align: center;
+}
+header .company-info h1{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: white;
+    font-size: 35px;
+    border-bottom: 1px dotted red;
+    text-shadow: 0 0 5px orangered;
+    
+}
+header .company-info h3{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: orangered;
+    letter-spacing: 3px;
+}
+nav{
+    width: 100%;
+    height: 50px;   
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    margin: 0 10px;
+}
+nav a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+article{
+    width: 70%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 0 5px grey;
+    margin: 5px;
+    float: left;
+}
+aside{
+    width: 28%;
+    height: auto;
+    background-color: white;
+    float: left;    
+}
+footer{
+    border-top: 5px double orangered;
+    clear: both;
+    width: 100%;
+    height: 150px;
+    background-color: greenyellow; 
+    line-height: 150px;
+    text-align: center;
+    font-size: 26px;
+    font-variant: small-caps;    
+}
+iframe [name=page] {
+    width: 100%;
+    min-height: 500px;
+}
+ul.menu_dung{
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+    box-shadow: 0 0 5px orangered;
+    border-radius: 5px;
+}
+ul.menu_dung>li{
+    border-bottom: 1px dotted orangered;
+}
+ul.menu_dung>li>a{
+    text-decoration: none;
+    line-height: 30px;
+    font-variant: small-caps;
+    color: orange;
+    padding-left: 20px;
+    background: url('/images/school.png') no-repeat left center;
+    font-size: large;
+}
+ul.menu_dung>li>a:hover{
+    text-decoration: underline;
+    color: red;
+    display: block;    
+    background: url('/images/vehicle.png') no-repeat left center;    
+    background-color: orange;
+}
+/*-------------------------*/
+.col-25{
+    width: 24%;
+    float: left;
+    margin: 5px 2px;
+}
+.sanpham{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+.sanpham .name{
+    font-variant: small-caps;
+    color: orangered;
+}
+.sanpham>.image{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.sanpham>.price{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-size: 25px;
+    color: orange;
+    font-family: Impact;
+}
+.sanpham>.icons{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+}
+.sanpham>.new-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.sanpham>.new-icon>img{
+    border-top-right-radius: 10px;
+}
+/*-----------menu----------*/
+.menu{
+    background-color: orangered;
+    text-align: center;
+    font-variant: small-caps; 
+}
+.menu .ul{
+    background-color: orangered;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.menu >ul >li{
+    display: inline-block;
+    line-height: 50px;
+    width: 20%;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.menu a:hover{
+    background-color: orange;
+    color: red;
+    border-radius: 10px;
+}
+.menu li{
+    position: relative;
+}
+.sub-menu{
+    position: absolute;
+    background-color: orangered;
+    width: 75%;
+    list-style-type: none;
+    display: none;
+    z-index: 1;
+}
+.sub-menu >ul{
+    position: absolute;
+    background-color: orangered;
+    width: 77%;
+    list-style-type: none;
+    display: none;
+}
+.sub-menu >li{
+    padding: 0;
+    margin-left: -40px;
+}
+.menu li:hover .sub-menu{
+    display: block;
+}

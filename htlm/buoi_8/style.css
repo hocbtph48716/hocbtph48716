@@ -1,0 +1,19 @@
+form{
+    width: 300px;
+    background-color: yellowgreen;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+
+    padding: 10px 10px;
+}
+
+form #btn {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+form #btn:hover{
+    background-color: orange;
+}

@@ -1,0 +1,17 @@
+.menu{
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 25px;
+}
+.menu>a{
+    color: blue;
+    text-decoration: none;
+}
+.menu>a{
+    color: green;
+}
+.menu>a{
+    color: red;
+    text-decoration: underline;
+}
+
